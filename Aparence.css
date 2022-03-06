@@ -1,0 +1,93 @@
+body {
+  background-color: rgb(53, 49, 49);
+  color: white;
+}
+
+#div1 {
+  border: 1px solid black;
+  width: 45%;
+  height: 65%;
+  background-color: rgb(82, 30, 77);
+  position: absolute;
+  left: 27%;
+  border-radius: 10px;
+}
+
+#div2 {
+  position: relative;
+  left: 19%;
+  top: 3.5%;
+  font-family: tahoma;
+  font-size: 15px;
+}
+
+#div3 {
+  position: relative;
+  left: 53%;
+  top: -6%;
+  font-family: tahoma;
+  font-size: 15px;
+}
+
+#text3 {
+  font-size: 12px;
+}
+
+h1 {
+  font-family: tahoma;
+  font-size: 28px;
+}
+
+#btn1 {
+  position: relative;
+  left: 32%;
+  width: 15%;
+  height: 12%;
+  font-family: tahoma;
+  border-radius: 10px;
+  background: #019220;
+  font-weight: bold;
+  color: white;
+}
+
+#btn2 {
+  position: relative;
+  left: 35%;
+  width: 15%;
+  height: 12%;
+  font-family: tahoma;
+  border-radius: 10px;
+  background: #f54747;
+  font-weight: bold;
+  color: white;
+}
+
+#div4 {
+  position: relative;
+  left: -1%;
+  top: 6%;
+  text-align: center;
+}
+
+#resultado {
+  font-family: tahoma;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+h1 {
+  color: rgb(241, 241, 241);
+}
+
+li {
+  font-size: 12px;
+}
+
+#div5 {
+  position: relative;
+  top: 15%;
+}
+
+#valorFinal {
+  font-size: 20px;
+}

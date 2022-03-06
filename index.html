@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de moedas</title>
+    <link rel="stylesheet" href="Aparence.css">
+</head>
+<body>
+    <form>
+		<div id="div1">
+			<center><h1>Converta de Real para outras moedas</h1></center>
+			
+			
+			<div id="div2">
+				<b><label id="text1">Converter para: </label></b><br />
+				<select id="opções">
+					<option></option>
+					<option value="1">Dólar Americano</option>							
+					<option value="2">Euro</option>
+					<option value="3">Libra Esterlina</option>				
+					<option value="4">Bitcoin</option>
+				</select><br />
+			</div>
+			
+		
+			<div id="div3">
+				<b><label>Valor a ser convertido:</label></b><br />		
+				<input type="text" id="text2" />
+			</div>
+			
+			
+			<input type="button" value="Converter" id="btn1" onClick="conversao()" />
+			<input type="reset" value="Limpar" id="btn2">
+			
+		
+			<div id="div4">
+				<label id="resultado">Resultado:</label><br />
+				<span id="valorFinal"></span>
+			</div><br />
+			
+		
+			<div id="div5">
+				<ul>
+				<li>Atividade da disciplina Web campus Caxias</li>				
+				<li>Data da cotação: 06/03/2022</li>
+			</ul>
+			</div>
+		</div>	
+	</form>	
+    <script src="conv.js"></script>
+    
+</body>
+</html>
